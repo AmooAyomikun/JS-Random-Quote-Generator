@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Quote Generator</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="title">Random Quote Generator</h1>
+            <p class="subtitle">Click the button to discover inspiration</p>
+        </header>
+
+        <div class="quote-card">
+            <p id="quote-text" class="quote-card-text">
+                “Your quote will appear here.”
+            </p>
+            <span id="quote-author" class="quote-card-author"> — Author Name </span>
+
+            <div class="quote-card-actions">
+                <button id="new-quote-btn" class="btn btn-new">
+                    New Quote
+                </button>
+
+                <button id="copy-btn" class="btn btn-copy">
+                    Copy Quote
+                </button>
+
+                <button id="share-btn" class="btn btn-copy">
+                    Share Quote <i class="fa-solid fa-share"></i>
+                </button>
+
+                <button id="tweet-btn" class="btn btn-copy">
+                    Tweet Quote <i class="fa-solid fa-x"></i>
+                </button>
+
+                <button id="save-btn" class="btn btn-copy">
+                    Save Quote <i class="fa fa-save"></i>
+                </button>
+            </div>
+        </div>
+
+        <div id="saved-quote" class="saved-quote hidden">
+            
+        </div>
+    </div>
+    <footer class="footer">
+        <p>Built By Ayomikun_The_Developer</p>
+    </footer>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
+
